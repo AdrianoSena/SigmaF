@@ -3,12 +3,20 @@ package br.corp.sigma.sigmaf.model;
 public class Ponto {
 
     private long idPonto;
-
-
-
+    //Tipo ponto fk tipo do ponto
     private String nome;
+    private int numeroAmostra;
     private String latitude;
     private String longitude;
+    private long idPesquisa; //FK pesquisa
+
+    public long getIdPonto() {
+        return idPonto;
+    }
+
+    public void setIdPonto(long idPonto) {
+        this.idPonto = idPonto;
+    }
 
     public String getNome() {
         return nome;
@@ -32,5 +40,21 @@ public class Ponto {
 
     public void setLongitude(String longitude) {
         this.longitude = longitude;
+    }
+
+    public long getIdPesquisa() {
+        return idPesquisa;
+    }
+
+    public void setIdPesquisa(long idPesquisa) {
+        this.idPesquisa = idPesquisa;
+    }
+
+    public int getNumeroAmostra() {
+        return numeroAmostra;
+    }
+
+    public void setNumeroAmostra(int numeroAmostra) {
+        this.numeroAmostra = numeroAmostra;
     }
 }

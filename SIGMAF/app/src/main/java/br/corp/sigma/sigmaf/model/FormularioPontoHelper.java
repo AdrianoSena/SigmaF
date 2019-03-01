@@ -5,9 +5,9 @@ import android.widget.EditText;
 import br.corp.sigma.sigmaf.R;
 import br.corp.sigma.sigmaf.ui.FormularioSolo;
 
-public class FormularioSoloHelper {
+public class FormularioPontoHelper {
 
-    private Solo solo;
+    private Ponto ponto;
 
     private EditText nomePonto;
     private EditText numeroAmostra;
@@ -15,8 +15,8 @@ public class FormularioSoloHelper {
     private EditText longitude;
 
 
-    public FormularioSoloHelper(FormularioSolo formulario){
-        solo = new Solo();
+    public FormularioPontoHelper(FormularioSolo formulario){
+        ponto = new Ponto();
         nomePonto = (EditText) formulario.findViewById(R.id.form_nome_amostra);
         numeroAmostra = (EditText) formulario.findViewById(R.id.form_nome_amostra);
         latitude = (EditText) formulario.findViewById(R.id.form_latitute);
@@ -24,12 +24,12 @@ public class FormularioSoloHelper {
 
     }
 
-    public Solo pegaSolo(){
-        solo.setaNome(nomePonto.getText().toString());
-        solo.setNumeroAmostra(Integer.getInteger(numeroAmostra.getText().toString()));
-        solo.setaLatitude(latitude.getText().toString());
-        solo.setaLongitude(longitude.getText().toString());
-        return solo;
+    public Ponto pegaSolo(){
+        ponto.setNome(nomePonto.getText().toString());
+        ponto.setNumeroAmostra(Integer.getInteger(numeroAmostra.getText().toString()));
+        ponto.setLatitude(latitude.getText().toString());
+        ponto.setLongitude(longitude.getText().toString());
+        return ponto;
     }
 
 

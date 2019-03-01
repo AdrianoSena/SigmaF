@@ -5,7 +5,6 @@ public class Pesquisa {
     private Long idPesquisa;
     private String nome_pesquisa;
     private String tipo_pesquisa;
-    private Usuario usuario;
 
     public Long getIdPesquisa() {
         return idPesquisa;
@@ -31,11 +30,4 @@ public class Pesquisa {
         this.tipo_pesquisa = tipo_pesquisa;
     }
 
-    public Usuario getUsuario() {
-        return usuario;
-    }
-
-    public void setUsuario(Usuario usuario) {
-        this.usuario = usuario;
-    }
 }

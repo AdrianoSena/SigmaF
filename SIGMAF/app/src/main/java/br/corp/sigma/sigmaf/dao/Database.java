@@ -14,7 +14,7 @@ public class Database extends SQLiteOpenHelper {
     //Criando todas as tabelas do banco aqui
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String sql = "CREATE TABLE pesquisa_solo (id INTEGER PRIMARY KEY, nome_amostra text NOT NULL, numero_amostra text not null, descricao text, latitude text, longitude text)";
+        String sql = "CREATE TABLE ponto (id INTEGER PRIMARY KEY, nome_amostra text NOT NULL, numero_amostra text not null, latitude text, longitude text)";
         db.execSQL(sql);
     }
 
