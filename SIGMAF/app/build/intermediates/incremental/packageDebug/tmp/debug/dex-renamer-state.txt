@@ -1,4 +1,4 @@
-#Thu Mar 07 01:53:34 BRT 2019
+#Tue Mar 12 21:11:51 BRT 2019
 base.0=C\:\\Users\\Adriano\\Documents\\GitHub\\SigmaF\\SIGMAF\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.1=classes.dex
 renamed.1=classes2.dex

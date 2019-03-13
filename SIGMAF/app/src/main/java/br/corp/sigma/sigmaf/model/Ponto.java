@@ -5,7 +5,7 @@ public class Ponto {
     private long idPonto;
     //Tipo ponto fk tipo do ponto
     private String nome;
-    private int numeroAmostra;
+    private String numeroAmostra;
     private String latitude;
     private String longitude;
     private long idPesquisa; //FK pesquisa
@@ -50,11 +50,11 @@ public class Ponto {
         this.idPesquisa = idPesquisa;
     }
 
-    public int getNumeroAmostra() {
+    public String getNumeroAmostra() {
         return numeroAmostra;
     }
 
-    public void setNumeroAmostra(int numeroAmostra) {
+    public void setNumeroAmostra(String numeroAmostra) {
         this.numeroAmostra = numeroAmostra;
     }
 }

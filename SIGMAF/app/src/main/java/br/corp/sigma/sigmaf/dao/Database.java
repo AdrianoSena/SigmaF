@@ -6,8 +6,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class Database extends SQLiteOpenHelper {
 
-    public Database(Context context,  String name,  SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, "sigma",null, 1);
+    public Database(Context context) {
+        super(context, "sigmaf",null, 1);
     }
 
 
