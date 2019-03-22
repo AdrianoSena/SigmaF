@@ -1,14 +1,19 @@
 package br.corp.sigma.sigmaf.model;
 
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
+
+@Entity
 public class Ponto {
 
+    @PrimaryKey(autoGenerate = true)
     private long idPonto;
-    //Tipo ponto fk tipo do ponto
     private String nome;
     private String numeroAmostra;
     private String latitude;
     private String longitude;
-    private long idPesquisa; //FK pesquisa
+    private String descricao;
+    //private long idPesquisa; //FK pesquisa
 
     public long getIdPonto() {
         return idPonto;
@@ -40,14 +45,6 @@ public class Ponto {
 
     public void setLongitude(String longitude) {
         this.longitude = longitude;
-    }
-
-    public long getIdPesquisa() {
-        return idPesquisa;
-    }
-
-    public void setIdPesquisa(long idPesquisa) {
-        this.idPesquisa = idPesquisa;
     }
 
     public String getNumeroAmostra() {

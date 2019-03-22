@@ -4,17 +4,7 @@
             "outputFile": "C:\\Users\\Adriano\\Documents\\GitHub\\SigmaF\\SIGMAF\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Adriano\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\9e64cd659604d0d9f20188342b44f5a4\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Adriano\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1a56436dadffb806708a8d472bbf9d07\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Adriano\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1906b946562244d7f7efa2cf36d78769\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Adriano\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\903e2bb82f4b2ed80afbd3cdfec23d0d\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

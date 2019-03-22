@@ -32,6 +32,4 @@ public class FormularioPontoHelper {
         return ponto;
     }
 
-
-
 }
