@@ -1,9 +1,7 @@
 package br.corp.sigma.sigmaf.model;
 
-import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
-@Entity
 public class Ponto {
 
     @PrimaryKey(autoGenerate = true)

@@ -5,7 +5,9 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-@Database(entities = {}, version = 1, exportSchema = false)
+import br.corp.sigma.sigmaf.model.PerfilSolo;
+
+@Database(entities = {PerfilSolo.class}, version = 1, exportSchema = false)
 public abstract class SigmaDatabaseRoom  extends RoomDatabase {
 
     private static final String NOME_BANCO_DE_DADOS = "sigma.db";
