@@ -1,7 +1,12 @@
 package br.corp.sigma.sigmaf.model;
 
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
+
+@Entity
 public class Pesquisa {
 
+    @PrimaryKey(autoGenerate = true)
     private Long idPesquisa;
     private String nome_pesquisa;
     private String tipo_pesquisa;

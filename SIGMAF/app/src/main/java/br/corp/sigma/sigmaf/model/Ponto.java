@@ -2,23 +2,22 @@ package br.corp.sigma.sigmaf.model;
 
 import android.arch.persistence.room.PrimaryKey;
 
-public class Ponto {
+public abstract class Ponto {
 
     @PrimaryKey(autoGenerate = true)
-    private long idPonto;
+    private long id;
     private String nome;
     private String numeroAmostra;
     private String latitude;
     private String longitude;
     private String descricao;
-    //private long idPesquisa; //FK pesquisa
 
-    public long getIdPonto() {
-        return idPonto;
+    public long getId() {
+        return id;
     }
 
-    public void setIdPonto(long idPonto) {
-        this.idPonto = idPonto;
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getNome() {
@@ -51,5 +50,13 @@ public class Ponto {
 
     public void setNumeroAmostra(String numeroAmostra) {
         this.numeroAmostra = numeroAmostra;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 }

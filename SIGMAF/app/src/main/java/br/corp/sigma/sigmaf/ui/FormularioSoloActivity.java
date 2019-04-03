@@ -8,18 +8,15 @@ import android.widget.Toast;
 
 import br.corp.sigma.sigmaf.R;
 import br.corp.sigma.sigmaf.dao.PontoDAO;
-import br.corp.sigma.sigmaf.model.FormularioPontoHelper;
 import br.corp.sigma.sigmaf.model.Ponto;
 
 public class FormularioSoloActivity extends AppCompatActivity {
 
-    private FormularioPontoHelper helper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulario_solo);
-        helper = new FormularioPontoHelper(this);
 
     }
 
@@ -30,20 +27,20 @@ public class FormularioSoloActivity extends AppCompatActivity {
     }
 
     //Define o que acontece em cada item de menu selecionado
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.menu_formulario_ok:
-                Ponto ponto = helper.pegaPonto();
-                //Instanciando um Dao e salvando o aluno no banco ou atualizando os dados
-                PontoDAO pontoDAO = new PontoDAO(this);
-                pontoDAO.insere(ponto);
-
-                Toast.makeText(FormularioSoloActivity.this, "Ponto " +ponto.getNome()+"Salvo com sucesso!", Toast.LENGTH_SHORT).show();
-                pontoDAO.fechaConexao();//Fechando a conexão, método herdado de SQLiteOpenHelper
-//                finish();//finalizando a activity
-                break;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()){
+//            case R.id.menu_formulario_ok:
+//                Ponto ponto = helper.pegaPonto();
+//                //Instanciando um Dao e salvando o aluno no banco ou atualizando os dados
+//                PontoDAO pontoDAO = new PontoDAO(this);
+//                pontoDAO.insere(ponto);
+//
+//                Toast.makeText(FormularioSoloActivity.this, "Ponto " +ponto.getNome()+"Salvo com sucesso!", Toast.LENGTH_SHORT).show();
+//                pontoDAO.fechaConexao();//Fechando a conexão, método herdado de SQLiteOpenHelper
+////                finish();//finalizando a activity
+//                break;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 }

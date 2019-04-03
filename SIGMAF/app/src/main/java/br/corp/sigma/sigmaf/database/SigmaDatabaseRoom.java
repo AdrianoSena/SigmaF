@@ -5,14 +5,18 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
+import br.corp.sigma.sigmaf.dao.AmostrasDao;
+import br.corp.sigma.sigmaf.dao.PerfilRoomDAO;
+import br.corp.sigma.sigmaf.model.Amostra;
 import br.corp.sigma.sigmaf.model.PerfilSolo;
 
-@Database(entities = {PerfilSolo.class}, version = 1, exportSchema = false)
+@Database(entities = {PerfilSolo.class, Amostra.class}, version = 1, exportSchema = false)
 public abstract class SigmaDatabaseRoom  extends RoomDatabase {
 
     private static final String NOME_BANCO_DE_DADOS = "sigma.db";
 
-    //Falta adiconar o Dao do ponto
+    public abstract PerfilRoomDAO getPerfilRoomDAO();
+    public abstract AmostrasDao getAmostrasDao();
 
     private static SigmaDatabaseRoom instance;
 
