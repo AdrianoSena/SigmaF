@@ -8,4 +8,8 @@ import java.util.List;
 @Entity
 public class PerfilSolo extends Ponto {
 
+    @Override
+    public String toString(){
+        return super.getId() + " - " + super.getNome();
+    }
 }

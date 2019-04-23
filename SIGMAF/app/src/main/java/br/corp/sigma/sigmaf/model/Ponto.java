@@ -11,6 +11,8 @@ public abstract class Ponto {
     private String latitude;
     private String longitude;
     private String descricao;
+    private String foto;
+    private String audio;
 
     public long getId() {
         return id;
@@ -58,5 +60,21 @@ public abstract class Ponto {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public String getFoto() {
+        return foto;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
+    }
+
+    public String getAudio() {
+        return audio;
+    }
+
+    public void setAudio(String audio) {
+        this.audio = audio;
     }
 }

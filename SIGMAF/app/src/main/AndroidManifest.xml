@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.corp.sigma.sigmaf">
 
-    <!-- Pedir permissão para acesso ao armazenamento -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,14 +9,61 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.FormularioSoloActivity">
+        <activity android:name=".ui.FormularioPerfilSolo"></activity>
+        <activity android:name=".ui.formulario_perfil_solo" />
+        <activity android:name=".ui.ListaPerfisActivity" />
+        <activity android:name=".ui.Outros">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.corp.sigma.sigmaf.ui.NovaPesquisa" />
+        </activity>
+        <activity android:name=".ui.Solo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.corp.sigma.sigmaf.ui.NovaPesquisa" />
+        </activity>
+        <activity android:name=".ui.Planta">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.corp.sigma.sigmaf.ui.NovaPesquisa" />
+        </activity>
+        <activity android:name=".ui.Config">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.corp.sigma.sigmaf.ui.MainActivity" />
+        </activity>
+        <activity android:name=".ui.Pesquisas">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.corp.sigma.sigmaf.ui.MainActivity" />
+        </activity>
+        <activity android:name=".ui.NovaPesquisa">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.corp.sigma.sigmaf.ui.MainActivity" />
+        </activity>
+        <activity android:name=".ui.Home" />
+        <activity android:name=".ui.ListaPontosActivity" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.ListaPontosActivity"></activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
