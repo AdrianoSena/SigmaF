@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.FormularioPerfilSolo"></activity>
+        <activity android:name=".ui.ListaImpactosActivity"></activity>
+        <activity android:name=".ui.FormularioImpactoActivity" />
+        <activity android:name=".ui.FormularioPerfilSolo" />
         <activity android:name=".ui.formulario_perfil_solo" />
         <activity android:name=".ui.ListaPerfisActivity" />
         <activity android:name=".ui.Outros">

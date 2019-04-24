@@ -10,7 +10,7 @@ import br.corp.sigma.sigmaf.dao.PerfilRoomDAO;
 import br.corp.sigma.sigmaf.model.Amostra;
 import br.corp.sigma.sigmaf.model.PerfilSolo;
 
-@Database(entities = {PerfilSolo.class, Amostra.class}, version = 1, exportSchema = false)
+@Database(entities = {PerfilSolo.class, Amostra.class}, version = 2, exportSchema = false)
 public abstract class SigmaDatabaseRoom  extends RoomDatabase {
 
     private static final String NOME_BANCO_DE_DADOS = "sigma.db";
@@ -24,6 +24,7 @@ public abstract class SigmaDatabaseRoom  extends RoomDatabase {
         if (instance == null){
             instance = Room.databaseBuilder(context, SigmaDatabaseRoom.class, NOME_BANCO_DE_DADOS)
                     .allowMainThreadQueries()
+                    .fallbackToDestructiveMigration()//Destrói a estrutura do banco de dados
                     .build();
         }
         return instance;

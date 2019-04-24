@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class PerfilSolo extends Ponto {
+public class PerfilSolo extends Ponto  {
 
     @Override
     public String toString(){

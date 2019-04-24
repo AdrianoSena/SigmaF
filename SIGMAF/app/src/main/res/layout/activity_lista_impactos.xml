@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.ListaPerfisActivity">
+    tools:context=".ui.ListaImpactosActivity">
 
     <TextView
-        android:id="@+id/lista_impactos_titulo"
+        android:id="@+id/lista_amostras_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="Lista de Perfis"
+        android:text="Lista de Impactos"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.048" />
 
     <ListView
-        android:id="@+id/lista_impactos_lista"
+        android:id="@+id/lista_amostras_lista"
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:layout_marginTop="32dp"
@@ -28,12 +28,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.889"
-        app:layout_constraintStart_toStartOf="@+id/lista_impactos_titulo"
-        app:layout_constraintTop_toBottomOf="@+id/lista_impactos_titulo"
+        app:layout_constraintStart_toStartOf="@+id/lista_amostras_titulo"
+        app:layout_constraintTop_toBottomOf="@+id/lista_amostras_titulo"
         app:layout_constraintVertical_bias="0.0" />
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/lista_perfis_botao_novo"
+        android:id="@+id/lista_impacto_botao_novo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.905"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lista_impactos_lista"
+        app:layout_constraintTop_toBottomOf="@+id/lista_amostras_lista"
         app:layout_constraintVertical_bias="0.549"
         app:srcCompat="@android:drawable/ic_input_add"
         android:focusable="true" />

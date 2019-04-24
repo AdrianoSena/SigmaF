@@ -1,5 +1,6 @@
 package br.corp.sigma.sigmaf.ui;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,7 +9,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import br.corp.sigma.sigmaf.R;
-import br.corp.sigma.sigmaf.dao.Database;
 import br.corp.sigma.sigmaf.dao.PerfilRoomDAO;
 import br.corp.sigma.sigmaf.database.SigmaDatabaseRoom;
 import br.corp.sigma.sigmaf.model.PerfilSolo;
@@ -31,27 +31,47 @@ public class FormularioPerfilSolo extends AppCompatActivity {
         inicializacaoDosCampos();
         perfil = new PerfilSolo();
 
-        Button botaoSalvar = findViewById(R.id.formulario_botao_salvar);
+        Intent intent = getIntent();
+//        perfil = (PerfilSolo) intent.getSerializableExtra("perfil");
+//        if (perfil != null) {
+//            preencheFormulario(perfil);
+//        }
+
+        inicializacaoDosCampos();
+
+        Button botaoSalvar = findViewById(R.id.formulario_impacto_salvar);
         botaoSalvar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 preenchePerfil();
-                perfilDao.salva(perfil);
+                if (Long.valueOf(perfil.getId()) == null) {
+                    perfilDao.edita(perfil);
+                } else {
+                    perfilDao.salva(perfil);
+                }
                 Toast.makeText(FormularioPerfilSolo.this,"Perfil Criado Com sucesso",Toast.LENGTH_LONG ).show();
+                finish();
+
             }
         });
     }
 
     private void inicializacaoDosCampos() {
-        campoNome = findViewById(R.id.formulario_nome_perfil);
-        campoDescricao = findViewById(R.id.formulario_descricao);
+        campoNome = findViewById(R.id.formulario_impacto_impacto);
+        campoDescricao = findViewById(R.id.formulario_impacto_profundidade);
     }
 
     private void preenchePerfil() {
         String nome = campoNome.getText().toString();
         String descricao = campoDescricao.getText().toString();
-
         perfil.setNome(nome);
         perfil.setDescricao(descricao);
     }
+
+    public void preencheFormulario(PerfilSolo perfil) {
+        campoNome.setText(perfil.getNome());
+        campoDescricao.setText(perfil.getDescricao());
+        this.perfil = perfil;
+    }
+
 }

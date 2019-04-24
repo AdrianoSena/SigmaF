@@ -2,7 +2,9 @@ package br.corp.sigma.sigmaf.model;
 
 import android.arch.persistence.room.PrimaryKey;
 
-public abstract class Ponto {
+import java.io.Serializable;
+
+public abstract class Ponto implements Serializable {
 
     @PrimaryKey(autoGenerate = true)
     private long id;

@@ -2,6 +2,7 @@ package br.corp.sigma.sigmaf.model;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.ForeignKey;
+import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 
 
@@ -17,13 +18,18 @@ public class Amostra {
     private long id;
     private int impacto;
     private double profundidade;
-    private final int perfil_id;
+    private Long perfil_id;
 
-    public Amostra(int impacto, double profundidade, int perfil_id) {
+    @Ignore
+    public Amostra(int impacto, double profundidade, Long perfil_id) {
 
         this.impacto = impacto;
         this.profundidade = profundidade;
         this.perfil_id = perfil_id;
+    }
+
+    public Amostra(){
+
     }
 
     public long getId() {
@@ -50,7 +56,11 @@ public class Amostra {
         this.profundidade = profundidade;
     }
 
-    public int getPerfil_id() {
+    public Long getPerfil_id() {
         return perfil_id;
+    }
+
+    public void setPerfil_id(Long perfil_id) {
+        this.perfil_id = perfil_id;
     }
 }

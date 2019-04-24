@@ -20,7 +20,7 @@ public class NovaPesquisa extends AppCompatActivity {
         startActivity(telaPlanta);
     }
     public void iniciaSolo(View view){
-        Intent telaSolo = new Intent(this,FormularioPerfilSolo.class);
+        Intent telaSolo = new Intent(this,ListaPerfisActivity.class);
         startActivity(telaSolo);
     }
     public void iniciaOutros(View view){
