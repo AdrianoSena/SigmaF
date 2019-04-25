@@ -1175,10 +1175,10 @@ int id list_item 0x7f080079
 int id lista_amostras_lista 0x7f08007a
 int id lista_amostras_titulo 0x7f08007b
 int id lista_impacto_botao_novo 0x7f08007c
-int id lista_impactos_lista 0x7f08007d
-int id lista_impactos_titulo 0x7f08007e
-int id lista_perfil_icone 0x7f08007f
-int id lista_perfis_botao_novo 0x7f080080
+int id lista_impactos_titulo 0x7f08007d
+int id lista_perfil_icone 0x7f08007e
+int id lista_perfis_botao_novo 0x7f08007f
+int id lista_perfis_lista 0x7f080080
 int id masked 0x7f080081
 int id menu_formulario_ok 0x7f080082
 int id message 0x7f080083

@@ -15,7 +15,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -26,26 +27,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
                 android:text="TextView"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/lista_perfil_icone"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
                 app:layout_constraintStart_toEndOf="@+id/lista_perfil_icone"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.189" />
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/item_impacto_profundidade"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:layout_marginBottom="16dp"
                 android:text="TextView"
+                android:textSize="18dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/item_impacto_impacto"
-                app:layout_constraintStart_toStartOf="@+id/item_impacto_impacto" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/item_impacto_impacto"
+                app:layout_constraintTop_toBottomOf="@+id/item_impacto_impacto"
+                app:layout_constraintVertical_bias="1.0" />
 
             <ImageView
                 android:id="@+id/lista_perfil_icone"
@@ -57,10 +64,11 @@
                 android:layout_marginBottom="8dp"
                 android:contentDescription="Ícone que representa um ponto de gps"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/item_impacto_impacto"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintVertical_bias="0.272"
                 app:srcCompat="@drawable/pesquisas" />
         </android.support.constraint.ConstraintLayout>
 

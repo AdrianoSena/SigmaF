@@ -1176,10 +1176,10 @@ id list_item
 id lista_amostras_lista
 id lista_amostras_titulo
 id lista_impacto_botao_novo
-id lista_impactos_lista
 id lista_impactos_titulo
 id lista_perfil_icone
 id lista_perfis_botao_novo
+id lista_perfis_lista
 id masked
 id menu_formulario_ok
 id message
