@@ -30,7 +30,7 @@ public class ListaPerfisActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_perfis);
-        listaPerfis = findViewById(R.id.lista_impactos_lista);
+        listaPerfis = findViewById(R.id.lista_perfis_lista);
         final List<PerfilSolo> listaPerfis;
 
         //Pegando a referência do banco
@@ -105,13 +105,13 @@ public class ListaPerfisActivity extends AppCompatActivity {
 
     public void carregaLista(){
      List<PerfilSolo> perfis = perfilDao.buscaPerfis();
-        ListView listaPerfis = findViewById(R.id.lista_impactos_lista);
+        ListView listaPerfis = findViewById(R.id.lista_perfis_lista);
         AdapterListaPerfis adapter = new AdapterListaPerfis(this, perfis);
         listaPerfis.setAdapter(adapter);
     }
 
     private void configuraLista() {
-        ListView listaPerfis= findViewById(R.id.lista_impactos_lista);
+        ListView listaPerfis= findViewById(R.id.lista_perfis_lista);
         configuraListenerDeCliquePorItem(listaPerfis);
         registerForContextMenu(listaPerfis);
     }

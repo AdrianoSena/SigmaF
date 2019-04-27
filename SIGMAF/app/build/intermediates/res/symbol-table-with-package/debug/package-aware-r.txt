@@ -1132,6 +1132,7 @@ id fill_horizontal
 id fill_vertical
 id filled
 id fixed
+id floatingActionButton2
 id forever
 id form_botao_audio
 id form_botao_imagem
@@ -1145,6 +1146,9 @@ id formulario_imagem
 id formulario_impacto_impacto
 id formulario_impacto_profundidade
 id formulario_impacto_salvar
+id formulario_perfil_card
+id formulario_perfil_descricao
+id formulario_perfil_nome
 id formulario_titulo
 id ghost_view
 id gone
@@ -1396,6 +1400,7 @@ layout support_simple_spinner_dropdown_item
 menu activity_lista_perfis_menu
 menu activity_main_drawer
 menu main
+menu menu_formulario
 menu menu_formulario_ponto
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -2038,3 +2043,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml file_paths

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-71:12
-INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-71:12
-INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-71:12
-INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-71:12
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-88:12
 MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Adriano\.gradle\caches\transforms-2\files-2.1\416cd27c7ddad95d0289f18a65cc1acf\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Adriano\.gradle\caches\transforms-2\files-2.1\0dd05ab3e6220e29eff5cd334e2ad814\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Adriano\.gradle\caches\transforms-2\files-2.1\5ad77d82557a89e7cc32334def8f070a\AndroidManifest.xml:17:1-22:12
@@ -38,25 +38,35 @@ MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Adriano\
 MERGED from [com.android.support:print:28.0.0] C:\Users\Adriano\.gradle\caches\transforms-2\files-2.1\e896c79de7514a1620a9990eff794011\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Adriano\.gradle\caches\transforms-2\files-2.1\524291655044e554e7feb6639519bb20\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Adriano\.gradle\caches\transforms-2\files-2.1\e65d284582fb79640b0c3624fe035739\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-71:12
-INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-71:12
-INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-88:12
 	package
 		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-71:12
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-88:12
 		INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-71:12
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:1-88:12
 		INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:5:5-6:35
+	android:required
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:6:9-32
+	android:name
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:5:19-57
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:5:5-69:19
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:10:5-86:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Adriano\.gradle\caches\transforms-2\files-2.1\0dd05ab3e6220e29eff5cd334e2ad814\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Adriano\.gradle\caches\transforms-2\files-2.1\0dd05ab3e6220e29eff5cd334e2ad814\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Adriano\.gradle\caches\transforms-2\files-2.1\ed7125fa0f6455963829be1c0981b24c\AndroidManifest.xml:9:5-20
@@ -68,93 +78,109 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Adriano\.g
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Adriano\.gradle\caches\transforms-2\files-2.1\706772d38c9ca851f1fbd03da7c4a569\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:16:9-40
+provider#android.support.v4.content.FileProvider
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:18:9-26:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:20:13-68
+	android:exported
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:19:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:23:13-25:64
+	android:resource
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:25:17-51
+	android:name
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:24:17-67
 activity#br.corp.sigma.sigmaf.ui.ListaImpactosActivity
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:12:9-71
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:28:9-71
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:12:19-59
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:28:19-59
 activity#br.corp.sigma.sigmaf.ui.FormularioImpactoActivity
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:13:9-66
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:29:9-66
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:13:19-63
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:29:19-63
 activity#br.corp.sigma.sigmaf.ui.FormularioPerfilSolo
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:14:9-61
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:30:9-61
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:14:19-58
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:30:19-58
 activity#br.corp.sigma.sigmaf.ui.formulario_perfil_solo
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:15:9-63
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:31:9-63
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:15:19-60
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:31:19-60
 activity#br.corp.sigma.sigmaf.ui.ListaPerfisActivity
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:16:9-60
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:32:9-60
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:16:19-57
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:32:19-57
 activity#br.corp.sigma.sigmaf.ui.Outros
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:17:9-21:20
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:33:9-37:20
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:17:19-44
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:33:19-44
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:18:13-20:72
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:34:13-36:72
 	android:value
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:20:17-69
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:19:17-63
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:35:17-63
 activity#br.corp.sigma.sigmaf.ui.Solo
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:22:9-26:20
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:38:9-42:20
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:22:19-42
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:38:19-42
 activity#br.corp.sigma.sigmaf.ui.Planta
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:27:9-31:20
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:43:9-47:20
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:27:19-44
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:43:19-44
 activity#br.corp.sigma.sigmaf.ui.Config
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:32:9-36:20
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:48:9-52:20
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:32:19-44
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:48:19-44
 activity#br.corp.sigma.sigmaf.ui.Pesquisas
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:37:9-41:20
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:53:9-57:20
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:37:19-47
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:53:19-47
 activity#br.corp.sigma.sigmaf.ui.NovaPesquisa
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:42:9-46:20
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:58:9-62:20
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:42:19-50
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:58:19-50
 activity#br.corp.sigma.sigmaf.ui.Home
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:47:9-45
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:63:9-45
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:47:19-42
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:63:19-42
 activity#br.corp.sigma.sigmaf.ui.ListaPontosActivity
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:48:9-60
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:64:9-60
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:48:19-57
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:64:19-57
 activity#br.corp.sigma.sigmaf.ui.MainActivity
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:49:9-58:20
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:65:9-74:20
 	android:label
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:51:13-45
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:67:13-45
 	android:theme
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:52:13-56
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:68:13-56
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:50:13-44
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:66:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:53:13-57:29
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:69:13-73:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:54:17-69
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:70:17-69
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:54:25-66
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:70:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:56:17-77
+ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:72:17-77
 	android:name
-		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:56:27-74
+		ADDED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml:72:27-74
 uses-sdk
 INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Adriano\AndroidStudioProjects\SigmaF\SIGMAF\app\src\main\AndroidManifest.xml
