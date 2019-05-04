@@ -20,7 +20,7 @@ import br.corp.sigma.sigmaf.ui.adapters.AdapterListaPerfis;
 
 import static br.corp.sigma.sigmaf.ui.ConstantesActivities.CHAVE_PERFIL;
 
-public class ListaPerfisActivity extends AppCompatActivity {
+    public class ListaPerfisActivity extends AppCompatActivity {
 
     private PerfilRoomDAO perfilDao;
     private ListView listaPerfis;
@@ -126,7 +126,7 @@ public class ListaPerfisActivity extends AppCompatActivity {
         });
     }
 
-    private void abreFormularioModoEditaPerfil(PerfilSolo perfil) {
+        private void abreFormularioModoEditaPerfil(PerfilSolo perfil) {
         Intent vaiParaFormularioActivity = new Intent(ListaPerfisActivity.this, FormularioPerfilSolo.class);
         //Pendura o Aluno na intent para ser carregado no formulário
         vaiParaFormularioActivity.putExtra(CHAVE_PERFIL, perfil);
